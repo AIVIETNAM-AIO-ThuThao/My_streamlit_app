@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 st.title(":red[Ứng dụng Streamlit - Day7 của Thảo]")
-st.write("Chào mừng bạn đến với ứng dụng hết sức sơ sài này!")
+st.write("Chào mừng bạn đến với ứng dụng hết sức sơ sài này!<b> Xin đội ơn sự đồng hành miệt mài của Deepseek</b>")
 
 # Ví dụ một số thành phần
 name = st.text_input("Nhập tên của bạn:")
