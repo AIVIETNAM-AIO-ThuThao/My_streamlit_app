@@ -5,11 +5,11 @@ import seaborn as sns       # thư viện vẽ biểu đồ thống kê
 import matplotlib.pyplot as plt     # pyplot là module chính để tạo figure, axes, và các thành phần đồ họa
 
 st.set_page_config(
-    page_title="🦍 🦍 🦍 Ứng dụng Streamlit - Day7 của Thảo",
+    page_title="🦍 🦍 🦍 Streamlit - Day7 của Thảo",
     page_icon="🚀",
     layout="wide"
 )
-st.title("Ứng dụng Streamlit - Day7 của Thảo")
+st.title(":red[Ứng dụng Streamlit - Day7 của Thảo]")
 st.write("Chào mừng bạn đến với ứng dụng hết sức sơ sài này!")
 
 # Ví dụ một số thành phần
