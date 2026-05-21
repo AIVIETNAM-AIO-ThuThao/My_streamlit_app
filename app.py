@@ -136,9 +136,8 @@ with st.expander("Bảng giá trị tại một số điểm"):
     st.dataframe(df, use_container_width=True)
 
 
-    st.title("Bài 3: Vẽ đồ thị hàm bậc 2")
-st.write("Yêu cầu: Nhập hệ số a, b, c cho phương trình y = ax2 + bx + c và vẽ đồ thị tương ứng. Dùng st.slider để điều chỉnh giá trị của a, b, c và cập nhật đồ thị theo thời
-gian thực.")
+st.title("Bài 3: Vẽ đồ thị hàm bậc 2")
+st.write("Yêu cầu: Nhập hệ số a, b, c cho phương trình y = ax2 + bx + c và vẽ đồ thị tương ứng. Dùng st.slider để điều chỉnh giá trị của a, b, c và cập nhật đồ thị theo thời gian thực.")
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -223,7 +222,7 @@ with left_col:
     st.pyplot(fig)
 
 with right_col:
-    st.subheader("📊 Phân tích đồ thị")
+    st.subheader("Phân tích đồ thị")
     
     # Thông tin về hệ số a
     if a > 0:
@@ -429,4 +428,3 @@ with st.expander("📖 Giải thích về biểu đồ nhiệt (Heatmap)"):
     - Biểu diễn ma trận hệ số
     - Trực quan hóa dữ liệu không gian 2D
     """)
-    
