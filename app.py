@@ -5,14 +5,6 @@ import seaborn as sns       # thư viện vẽ biểu đồ thống kê
 import matplotlib.pyplot as plt     # pyplot là module chính để tạo figure, axes, và các thành phần đồ họa
 
 
-df = sns. load_dataset (" tips ")           # tải bộ dữ liệu "tips" từ thư viện seaborn, chứa thông tin về hóa đơn và tiền tip tại một nhà hàng
-
-fig , ax = plt . subplots ()
-sns . scatterplot ( data =df , x=" total_bill ", y="tip", ax=ax)
-st. pyplot (fig)
-
-st.set_page_config(page_title="App của tôi", layout="wide")
-
 st.title("Ứng dụng Streamlit - Day7 của Thảo")
 st.write("Chào mừng bạn đến với ứng dụng hết sức sơ sài này!")
 
